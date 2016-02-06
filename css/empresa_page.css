@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #85CCBB;
+}
+
+h1 {
+	font-family: 'Lato Normal 400', sans-serif;
+	font-size: 20px;
+	position: relative;
+    top: 190px;
+	margin: 0;
+    left: 20%;
+	
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 40%;
+    /* To see the outline of the form */
+    padding: 1em;
+    float: right;
+    position: relative;
+    top: 160px;
+    right: 10%;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: block;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-family: 'Lato Thin 100', sans-serif;
+    font-size: 16px;
+    position: relative;
+    right: 14%;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+    right: 15%;
+    position: relative;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
+button {
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato Thin 100', sans-serif;
+    border: none;
+    box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px #888;
+    position: relative;
+    right: 15%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato Thin 100', sans-serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: #85CCBB;
+ }

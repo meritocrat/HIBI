@@ -1,0 +1,312 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+#one {
+	background: url(../mountain_pic.jpg);
+	background-size: cover;
+	background-position: 0% 200%;
+	width: 100%;
+	height: 900px;
+	position: relative;
+	text-align: center;
+}
+
+.logo {
+	width: 10%;
+	position: relative;
+	left: 46.5%;
+	top: 10px;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+#slogan {
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-size: 16px;
+	bottom: 10px;
+}
+
+h2 {
+	font-family: 'Lato Bold 700', sans-serif;
+	font-size: 24px;
+	position: relative;
+	top: 80px;
+	margin: 0;
+}
+
+#summary {
+	min-width: 30%;
+	max-width: 85%;
+	width: 50%;
+	font-family: 'Lato Thin 100', sans-serif;
+	font-size: 21px;
+	position: relative;
+	top: 100px;
+	left: 25%;
+	margin: 0;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.divspoiler {
+	position: relative;
+	top: 153px;
+	left: 35%;
+}
+
+.divspoiler2 {
+	position: relative;
+	top: 100px;
+	left: 48%;
+}
+
+button {
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato Thin 100', sans-serif;
+    border: none;
+    box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px #888;
+    position: relative;
+    right: 42%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato Thin 100', sans-serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: #85CCBB;
+ }
+
+ button a:hover {
+ 	color: #85CCBB;
+ }
+
+ #three {
+ 	width: 100%;
+	height: 450px;
+	background-color: #202020;
+	position: relative;
+	bottom: 65px;
+ }
+
+.ny {
+ 	width: 13%;
+ 	position: absolute;
+ 	top: 120px;
+ 	left: 5%;
+ }
+
+ .ny img {
+ 	max-width: 100%;
+ }
+
+ .sp {
+ 	width: 13%;
+ 	position: absolute;
+ 	top: 120px;
+ 	left: 20%;
+ }
+
+ .sp img {
+ 	max-width: 100%;
+ }
+
+ .dubai {
+ 	width: 13.5%;
+ 	position: absolute;
+ 	top: 123px;
+ 	left: 35%;
+ }
+
+ .dubai img {
+ 	max-width: 100%;
+ }
+
+ .milao {
+ 	width: 12.5%;
+ 	position: absolute;
+ 	top: 120px;
+ 	left: 50.5%;
+ }
+
+ .milao img {
+ 	max-width: 100%;
+ }
+
+ .istambul {
+ 	width: 13%;
+ 	position: absolute;
+ 	top: 120px;
+ 	left: 65%;
+ }
+
+ .istambul img {
+ 	max-width: 100%;
+ }
+
+ .paris {
+ 	width: 13.5%;
+ 	position: absolute;
+ 	top: 120px;
+ 	left: 80%;
+ }
+
+ .paris img {
+ 	max-width: 100%;
+ }
+
+#ny {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	top: 340px;
+ 	position: relative;
+ 	
+ 	right: 38.3%;
+
+ }
+
+#sp {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	top: 325px;
+ 	position: relative;
+ 	
+ 	right: 23%;
+ }
+
+ 
+
+ #dubai {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	top: 310px;
+ 	position: relative;
+ 	
+ 	right: 8%;
+ }
+
+ 
+ #milao {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	top: 295px;
+ 	position: relative;
+ 	
+ 	left: 7%;
+ }
+
+ 
+
+ #istambul {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	top: 280px;
+ 	position: relative;
+ 	
+ 	left: 21.5%;
+ }
+
+ 
+
+ #paris {
+ 	margin: 0;
+ 	font-family: 'Lato Thin 100', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	position: relative;
+ 	top: 260.5px;
+ 	left: 36.6%;
+ }
+
+ 
+
+ #four {
+ 	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	bottom: 65px;
+ }
+
+ .insta {
+	float: left;
+	width: 2%;
+	position: relative;
+	margin-left: 2%;
+	top: 100px;
+	left: 42%;
+	
+}
+
+.facebook {
+	float: left;
+	width: 2.1%;
+	position: relative;
+	margin-left: 2%;
+	top: 100px;
+	left: 42%;
+}
+
+ .linkedin {
+	float: left;
+	width: 1.9%;
+	position: relative;
+	margin-left: 2%;
+	top: 100px;
+	left: 42%;
+}
+
+.insta img, .facebook img, .linkedin img {
+	max-width: 100%;
+}
+
+.insta:hover, .facebook:hover, .linkedin:hover {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.logo2 {
+	width: 10%;
+	position: relative;
+	float: right;
+	right: 3%;
+	top: 33px;
+}
+
+.logo2 img {
+	max-width: 100%;
+}
