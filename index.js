@@ -1,4 +1,5 @@
-$('#send-email').click(function() {
+$('#send-email').click(function(e) {
+	e.preventDefault();
 	//array of objects
 	var dataArray = $('#email-form').serializeArray();
 	var dataObj = transformArray(dataArray);
@@ -22,7 +23,7 @@ $('#send-email').click(function() {
 			}
 		}
 	}).done(function(response) {
-		console.log(response); // if you're into that sorta thing
+		console.log('sent!', response); // if you're into that sorta thing
 	});
 })
 
