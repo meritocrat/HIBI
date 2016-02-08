@@ -12,8 +12,8 @@ $('#send-email').click(function(e) {
 			  'from_email': dataObj['email'],
 			  'to': [
 			      {
-			        'email': 'kim.named.jon@gmail.com',
-			        'name': 'Jonathan Kim',
+			        'email': 'jonathan_kim@hibiinfluencers.com', 'vkawamu@hibiinfluencers', 'aveloso@hibiinfluencers', 'aperez@hibiinfluencers', 'fkuba@hibiinfluencers',
+			        'name': 'HIBI',
 			        'type': 'to'
 			      }
 			  ],
